@@ -2,6 +2,8 @@
 
 收集了一些每日一句的接口与网站。
 
+iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e791930f1e9f3be)
+
 ## 接口集合
 
 [Postman share link](https://www.getpostman.com/collections/98d52280966545820fe4)
