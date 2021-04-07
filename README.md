@@ -6,52 +6,78 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
 
 ## 接口集合
 
-[Postman share link](https://www.getpostman.com/collections/98d52280966545820fe4)
+> [Postman share link](https://www.getpostman.com/collections/98d52280966545820fe4)
 
 ### ONE
 
-- API：https://api.hibai.cn/api/index/index
-- 请求方法：POST
-- 调性：小众，文艺
-- 类型：图文
-
-#### 请求参数
-
-Post form-data
-
-| 属性名    | 默认值 | 必填 | 说明                                   |
-| --------- | ------ | ---- | -------------------------------------- |
-| TransCode |        | 是   | 030111：当天数据，030112：最近一周数据 |
-| OpenId    |        | 是   | 随便填，保证字段非空即可               | --- |
+-   API：http://v3.wufazhuce.com:8000/api/channel/one/0/0
+-   请求方法：`GET`
+-   调性：小众，文艺
+-   类型：图文
 
 #### 返回值
 
-```
+```json
 {
-    "ResultCode": 1,
-    "ErrCode": "OK",
-    "Body": {
-        "id": 5065,
-        "vol": "VOL.2342",
-        "img_url": "http://image.wufazhuce.com/Fj7zpzj6kuRpJtElqwUkExkDqKUq",
-        "img_author": "徐盛哲",
-        "img_kind": "摄影",
-        "date": "2019-03-06 06:00:00",
-        "url": "http://m.wufazhuce.com/one/2372",
-        "word": "曾经爱你的每一条街，是我新鲜生活的起点 。",
-        "word_from": "李志",
-        "word_id": 2372
+    "res": 0,
+    "data": {
+        "id": "5829",
+        "weather": {...},
+        "date": "2021-04-07 06:00:00",
+        "content_list": [{
+            "id": "22156",
+            "category": "0",
+            "display_category": "4",
+            "item_id": "3150",
+            "title": "摄影",
+            "forward": "大多数人的人生就是这样，你追求的梦想，不一定会在终点给你惊喜，但至少，它会支撑你出发。",
+            "img_url": "http://image.wufazhuce.com/Ftv_3DjjyTP-RhBdHLpjObUTvOhl",
+            "like_count": 8682,
+            "post_date": "2021-04-07 06:00:00",
+            "last_update_date": "2021-03-24 17:08:39",
+            "author": {},
+            "video_url": "",
+            "audio_url": "",
+            "audio_platform": 2,
+            "start_video": "",
+            "has_reading": 0,
+            "volume": "VOL.3105",
+            "pic_info": "Bantersnaps",
+            "words_info": "张寒寺《我们这个世界的羊》",
+            "subtitle": "",
+            "number": 0,
+            "serial_id": 0,
+            "serial_list": [],
+            "movie_story_id": 0,
+            "ad_id": 0,
+            "ad_type": 0,
+            "ad_pvurl": "",
+            "ad_linkurl": "",
+            "ad_makettime": "",
+            "ad_closetime": "",
+            "ad_share_cnt": "",
+            "ad_pvurl_vendor": "",
+            "content_id": "3150",
+            "content_type": "0",
+            "content_bgcolor": "",
+            "share_url": "http://m.wufazhuce.com/one/3150",
+            "share_info": {...},
+            "share_list": {...},
+            "tag_list": []
+        }],
+        "menu": {...},
+        "ad": []
     }
 }
 ```
 
 ### 金山词霸
 
-- API：http://open.iciba.com/dsapi/
-- 请求方法：GET
-- 文档：http://open.iciba.com/?c=wiki
-- 调性：励志，鸡汤
-- 类型：图文
+-   API：http://open.iciba.com/dsapi/
+-   请求方法：`GET`
+-   文档：http://open.iciba.com/?c=wiki
+-   调性：励志，鸡汤
+-   类型：图文
 
 #### 请求参数
 
@@ -63,9 +89,9 @@ Post form-data
 
 #### 返回值
 
-需要 JSON 解码
+注意：响应类型为 `text/html`，需要 JSON 解码
 
-```
+```json
 {
     "sid": "3318",
     "tts": "http://news.iciba.com/admin/tts/2019-03-06-day1.mp3",
@@ -89,59 +115,57 @@ Post form-data
 }
 ```
 
-### 扇贝
+### 扇贝单词
 
-- API：https://api.tecchen.xyz/api/quote/
-- 请求方法：GET
-- 调性：励志，鸡汤
-- 类型：图文
+-   API：https://apiv3.shanbay.com/weapps/dailyquote/quote
+-   请求方法：`GET`
+-   调性：励志，鸡汤
+-   类型：图文
+
+#### 请求参数
+
+| 属性名 | 默认值   | 必填 | 说明                     |
+| ------ | -------- | ---- | ------------------------ |
+| date   | 当前日期 | 否   | yyyy-MM-dd，默认当前日期 |
 
 #### 返回值
 
-```
+```json
 {
-    "code": 0,
-    "message": "成功",
-    "data": {
-        "id": "bqtss",
-        "author": "《蝙蝠侠：黑暗骑士》",
-        "content": "The night is darkest just before the dawn. And I promise you, the dawn is coming.",
-        "assignDate": "2019-03-06",
-        "adUrl": null,
-        "shareUrl": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-        "shareUrls": {
-            "weibo": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "shanbay": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "wechat": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "qzone": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "wechat_user": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/"
-        },
-        "trackObject": {
-            "code": "abb22",
-            "share_url": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "object_id": 2528
-        },
-        "translation": "黎明前的夜最黑暗。我向你们保证，黎明就要来到。",
-        "originImgUrls": [
-            "https://media-image1.baydn.com/soup_pub_image/ccdbwr/c8da96fd69d9d53a0a995945b54f192d.6ae4029909d0e049b396381a5e53a5f6.png",
-            "https://media-image1.qiniu.baydn.com/soup_pub_image/ccdbwr/c8da96fd69d9d53a0a995945b54f192d.6ae4029909d0e049b396381a5e53a5f6.png?imageView2/2/w/1080/format/webp"
-        ],
-        "shareImgUrls": [
-            "https://media-image1.baydn.com/soup_pub_image/hcmuf/9ffabf03e3f5a09058b0843f12e88faa.988d4a7565f4aae4af6e6bac720350bb.png@!w720",
-            "https://media-image1.qiniu.baydn.com/soup_pub_image/hcmuf/9ffabf03e3f5a09058b0843f12e88faa.988d4a7565f4aae4af6e6bac720350bb.png?imageView2/2/w/720/"
-        ]
-    }
+    "id": "bcziue",
+    "content": "You can't be paralyzed by fear of failure or you will never push yourself.",
+    "author": "Arnold Schwarzenegger",
+    "assign_date": "2021-04-07",
+    "ad_url": null,
+    "share_url": "https://web.shanbay.com/op/quotes/2021-04-07/",
+    "share_urls": {...},
+    "origin_img_urls": [
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/c11cffe7ed36219ee44dfee79ceecba4.77390287ed79259b02d8bd7d06f67169.jpeg",
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/c11cffe7ed36219ee44dfee79ceecba4.77390287ed79259b02d8bd7d06f67169.jpeg"
+    ],
+    "share_img_urls": [
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/37199a19776d9681c9ccc76d189adc11.6f739349c4584f8b5a050884cd741fae.jpeg",
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/37199a19776d9681c9ccc76d189adc11.6f739349c4584f8b5a050884cd741fae.jpeg"
+    ],
+    "join_num": 43,
+    "translation": "你绝不能为失败的恐惧所吓倒，否则你将永远不会前进。",
+    "poster_img_urls": [
+        "https://media-image1.baydn.com/dailyquote/url-79491420f4846dd98cf5b61d5f5381fee98a7b3159349a07334d78acb4d90343.jpg?x-oss-process=image/quality,Q_80/format,webp",
+        "https://media-image1.baydn.com/dailyquote/url-79491420f4846dd98cf5b61d5f5381fee98a7b3159349a07334d78acb4d90343.jpg?x-oss-process=image/quality,Q_80/format,webp"
+    ],
+    "track_object": {...},
+    "daily_audio_urls": null
 }
 ```
 
 ### 一言
 
-- API：https://v1.hitokoto.cn/
-- 请求方法：GET
-- 官网：https://hitokoto.cn/
-- 文档：https://hitokoto.cn/api
-- 调性：二次元，网络，中二
-- 类型：文字
+-   API：https://v1.hitokoto.cn/
+-   请求方法：`GET`
+-   官网：https://hitokoto.cn/
+-   文档：https://hitokoto.cn/api
+-   调性：二次元，网络，中二
+-   类型：文字
 
 #### 请求参数
 
@@ -154,7 +178,7 @@ Post form-data
 
 #### 返回值
 
-```
+```json
 {
     "id": 4109,
     "hitokoto": "世界是无情的，并不存在与生俱来的英雄。 所以只能由刚好在旁边的人粉墨登场， 演一出英雄的戏码。",
@@ -167,16 +191,16 @@ Post form-data
 
 ### 今日诗词
 
-- API：https://v2.jinrishici.com/one.json
-- 请求方法：GET
-- 官网：https://www.jinrishici.com/
-- 文档：https://www.jinrishici.com/doc/
-- 调性：诗词，古风
-- 类型：文字
+-   API：https://v2.jinrishici.com/one.json
+-   请求方法：`GET`
+-   官网：https://www.jinrishici.com/
+-   文档：https://www.jinrishici.com/doc/
+-   调性：诗词，古风
+-   类型：文字
 
 #### 返回值
 
-```
+```json
 {
     "status": "success",
     "data": {
@@ -193,10 +217,7 @@ Post form-data
             ],
             "translate": null
         },
-        "matchTags": [
-            "白天",
-            "桃花"
-        ],
+        "matchTags": ["白天", "桃花"],
         "recommendedReason": "",
         "cacheAt": "2019-03-06T16:46:48.003082"
     },
@@ -208,16 +229,16 @@ Post form-data
 
 ### Storm
 
-- API：http://quotes.stormconsultancy.co.uk/random.json
-- 请求方法：GET
-- 官网：http://quotes.stormconsultancy.co.uk/
-- 文档：http://quotes.stormconsultancy.co.uk/api
-- 调性：计算机，编程领域
-- 类型：文字
+-   API：http://quotes.stormconsultancy.co.uk/random.json
+-   请求方法：`GET`
+-   官网：http://quotes.stormconsultancy.co.uk/
+-   文档：http://quotes.stormconsultancy.co.uk/api
+-   调性：计算机，编程领域
+-   类型：文字
 
 #### 返回值
 
-```
+```json
 {
     "author": "E. W. Dijkstra",
     "id": 14,
@@ -226,12 +247,23 @@ Post form-data
 }
 ```
 
+## 编程领域
+
+### 网站
+
+-   http://www.defprogramming.com
+-   https://skolakoda.org/programming-quotes/#/
+-   http://quotes.stormconsultancy.co.uk/
+-   https://en.wikiquote.org/w/api.php
+-   https://www.goodreads.com/quotes/tag/programming
+-   https://www.brainyquote.com/topics/programming
+
 ### Github
 
-- API：https://api.github.com/zen
-- 请求方法：GET
-- 调性：启发，哲学
-- 类型：文字
+-   API：https://api.github.com/zen
+-   请求方法：`GET`
+-   调性：启发，哲学
+-   类型：文字
 
 #### 返回值
 
@@ -241,46 +273,39 @@ Keep it logically awesome.
 
 全部数据：https://gist.github.com/sorrycc/7214622
 
-> "It's not fully shipped until it's fast."
-> "Practicality beats purity."
-> "Avoid administrative distraction."
-> "Mind your words, they are important."
-> "Non-blocking is better than blocking."
-> "Design for failure."
-> "Half measures are as bad as nothing at all."
-> "Favor focus over features."
-> "Approachable is better than simple."
-> "Encourage flow."
-> "Anything added dilutes everything else."
-> "Speak like a human."
-> "Responsive is better than fast."
-> "Keep it logically awesome."
-
-## 编程领域
-
-### 网站
-
-- http://www.defprogramming.com
-- https://skolakoda.org/programming-quotes/#/
-- http://quotes.stormconsultancy.co.uk/
-- https://en.wikiquote.org/w/api.php
-- https://www.goodreads.com/quotes/tag/programming
-- https://www.brainyquote.com/topics/programming
+```
+"It's not fully shipped until it's fast."
+"Practicality beats purity."
+"Avoid administrative distraction."
+"Mind your words, they are important."
+"Non-blocking is better than blocking."
+"Design for failure."
+"Half measures are as bad as nothing at all."
+"Favor focus over features."
+"Approachable is better than simple."
+"Encourage flow."
+"Anything added dilutes everything else."
+"Speak like a human."
+"Responsive is better than fast."
+"Keep it logically awesome."
+```
 
 ### laravel inspire
 
 https://github.com/laravel/framework/blob/5.8/src/Illuminate/Foundation/Inspiring.php#L23-L35
 
-> 'When there is no desire, all things are at peace. - Laozi'
-> 'Simplicity is the ultimate sophistication. - Leonardo da Vinci',
-> 'Simplicity is the essence of happiness. - Cedric Bledsoe',
-> 'Smile, breathe, and go slowly. - Thich Nhat Hanh',
-> 'Simplicity is an acquired taste. - Katharine Gerould',
-> 'Well begun is half done. - Aristotle',
-> 'He who is contented is rich. - Laozi',
-> 'Very little is needed to make a happy life. - Marcus Antoninus',
-> 'It is quality rather than quantity that matters. - Lucius Annaeus Seneca',
-> 'Genius is one percent inspiration and ninety-nine percent perspiration. - Thomas Edison',
-> 'Computer science is no more about computers than astronomy is about telescopes. - Edsger Dijkstra',
-> 'It always seems impossible until it is done. - Nelson Mandela',
-> 'Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant'
+```
+'When there is no desire, all things are at peace. - Laozi'
+'Simplicity is the ultimate sophistication. - Leonardo da Vinci'
+'Simplicity is the essence of happiness. - Cedric Bledsoe'
+'Smile, breathe, and go slowly. - Thich Nhat Hanh'
+'Simplicity is an acquired taste. - Katharine Gerould'
+'Well begun is half done. - Aristotle'
+'He who is contented is rich. - Laozi'
+'Very little is needed to make a happy life. - Marcus Antoninus'
+'It is quality rather than quantity that matters. - Lucius Annaeus Seneca'
+'Genius is one percent inspiration and ninety-nine percent perspiration. - Thomas Edison'
+'Computer science is no more about computers than astronomy is about telescopes. - Edsger Dijkstra'
+'It always seems impossible until it is done. - Nelson Mandela'
+'Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant'
+```
