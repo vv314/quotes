@@ -22,7 +22,7 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
     "res": 0,
     "data": {
         "id": "5829",
-        "weather": {...},
+        "weather": {},
         "date": "2021-04-07 06:00:00",
         "content_list": [{
             "id": "22156",
@@ -61,11 +61,11 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
             "content_type": "0",
             "content_bgcolor": "",
             "share_url": "http://m.wufazhuce.com/one/3150",
-            "share_info": {...},
-            "share_list": {...},
+            "share_info": {},
+            "share_list": {},
             "tag_list": []
         }],
-        "menu": {...},
+        "menu": {},
         "ad": []
     }
 }
@@ -107,8 +107,8 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
     "sp_pv": "0",
     "tags": [
         {
-            "id": null,
-            "name": null
+            "id": "",
+            "name": ""
         }
     ],
     "fenxiang_img": "http://cdn.iciba.com/web/news/longweibo/imag/2019-03-06.jpg"
@@ -136,9 +136,9 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
     "content": "You can't be paralyzed by fear of failure or you will never push yourself.",
     "author": "Arnold Schwarzenegger",
     "assign_date": "2021-04-07",
-    "ad_url": null,
+    "ad_url": "",
     "share_url": "https://web.shanbay.com/op/quotes/2021-04-07/",
-    "share_urls": {...},
+    "share_urls": {},
     "origin_img_urls": [
         "https://media-image1.baydn.com/soup_pub_image/bnznli/c11cffe7ed36219ee44dfee79ceecba4.77390287ed79259b02d8bd7d06f67169.jpeg",
         "https://media-image1.baydn.com/soup_pub_image/bnznli/c11cffe7ed36219ee44dfee79ceecba4.77390287ed79259b02d8bd7d06f67169.jpeg"
@@ -153,8 +153,8 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
         "https://media-image1.baydn.com/dailyquote/url-79491420f4846dd98cf5b61d5f5381fee98a7b3159349a07334d78acb4d90343.jpg?x-oss-process=image/quality,Q_80/format,webp",
         "https://media-image1.baydn.com/dailyquote/url-79491420f4846dd98cf5b61d5f5381fee98a7b3159349a07334d78acb4d90343.jpg?x-oss-process=image/quality,Q_80/format,webp"
     ],
-    "track_object": {...},
-    "daily_audio_urls": null
+    "track_object": {},
+    "daily_audio_urls": ""
 }
 ```
 
@@ -215,7 +215,7 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
                 "隐隐飞桥隔野烟，石矶西畔问渔船。",
                 "桃花尽日随流水，洞在清溪何处边。"
             ],
-            "translate": null
+            "translate": ""
         },
         "matchTags": ["白天", "桃花"],
         "recommendedReason": "",
@@ -223,7 +223,7 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
     },
     "token": "1L+kOwPjxE0+1mtlehoED8XuDj11JncZ",
     "ipAddress": "61.135.152.135",
-    "warning": null
+    "warning": ""
 }
 ```
 
@@ -274,20 +274,20 @@ Keep it logically awesome.
 全部数据：https://gist.github.com/sorrycc/7214622
 
 ```
-"It's not fully shipped until it's fast."
-"Practicality beats purity."
-"Avoid administrative distraction."
-"Mind your words, they are important."
-"Non-blocking is better than blocking."
-"Design for failure."
-"Half measures are as bad as nothing at all."
-"Favor focus over features."
-"Approachable is better than simple."
-"Encourage flow."
-"Anything added dilutes everything else."
-"Speak like a human."
-"Responsive is better than fast."
-"Keep it logically awesome."
+- "It's not fully shipped until it's fast."
+- "Practicality beats purity."
+- "Avoid administrative distraction."
+- "Mind your words, they are important."
+- "Non-blocking is better than blocking."
+- "Design for failure."
+- "Half measures are as bad as nothing at all."
+- "Favor focus over features."
+- "Approachable is better than simple."
+- "Encourage flow."
+- "Anything added dilutes everything else."
+- "Speak like a human."
+- "Responsive is better than fast."
+- "Keep it logically awesome."
 ```
 
 ### laravel inspire
@@ -295,17 +295,17 @@ Keep it logically awesome.
 https://github.com/laravel/framework/blob/5.8/src/Illuminate/Foundation/Inspiring.php#L23-L35
 
 ```
-'When there is no desire, all things are at peace. - Laozi'
-'Simplicity is the ultimate sophistication. - Leonardo da Vinci'
-'Simplicity is the essence of happiness. - Cedric Bledsoe'
-'Smile, breathe, and go slowly. - Thich Nhat Hanh'
-'Simplicity is an acquired taste. - Katharine Gerould'
-'Well begun is half done. - Aristotle'
-'He who is contented is rich. - Laozi'
-'Very little is needed to make a happy life. - Marcus Antoninus'
-'It is quality rather than quantity that matters. - Lucius Annaeus Seneca'
-'Genius is one percent inspiration and ninety-nine percent perspiration. - Thomas Edison'
-'Computer science is no more about computers than astronomy is about telescopes. - Edsger Dijkstra'
-'It always seems impossible until it is done. - Nelson Mandela'
-'Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant'
+- 'When there is no desire, all things are at peace. - Laozi'
+- 'Simplicity is the ultimate sophistication. - Leonardo da Vinci'
+- 'Simplicity is the essence of happiness. - Cedric Bledsoe'
+- 'Smile, breathe, and go slowly. - Thich Nhat Hanh'
+- 'Simplicity is an acquired taste. - Katharine Gerould'
+- 'Well begun is half done. - Aristotle'
+- 'He who is contented is rich. - Laozi'
+- 'Very little is needed to make a happy life. - Marcus Antoninus'
+- 'It is quality rather than quantity that matters. - Lucius Annaeus Seneca'
+- 'Genius is one percent inspiration and ninety-nine percent perspiration. - Thomas Edison'
+- 'Computer science is no more about computers than astronomy is about telescopes. - Edsger Dijkstra'
+- 'It always seems impossible until it is done. - Nelson Mandela'
+- 'Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant'
 ```
