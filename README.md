@@ -271,7 +271,7 @@ iOS 捷径：[每日一句](https://www.icloud.com/shortcuts/6bb4e30a50584ddb8e7
 Keep it logically awesome.
 ```
 
-全部数据：https://gist.github.com/sorrycc/7214622
+> 全部数据：https://gist.github.com/sorrycc/7214622
 
 ```
 - "It's not fully shipped until it's fast."
@@ -290,22 +290,39 @@ Keep it logically awesome.
 - "Keep it logically awesome."
 ```
 
-### laravel inspire
+### Laravel inspire
 
-https://github.com/laravel/framework/blob/5.8/src/Illuminate/Foundation/Inspiring.php#L23-L35
+> https://github.com/laravel/framework/blob/5.8/src/Illuminate/Foundation/Inspiring.php#L23-L35
 
 ```
-- 'When there is no desire, all things are at peace. - Laozi'
-- 'Simplicity is the ultimate sophistication. - Leonardo da Vinci'
-- 'Simplicity is the essence of happiness. - Cedric Bledsoe'
-- 'Smile, breathe, and go slowly. - Thich Nhat Hanh'
-- 'Simplicity is an acquired taste. - Katharine Gerould'
-- 'Well begun is half done. - Aristotle'
-- 'He who is contented is rich. - Laozi'
-- 'Very little is needed to make a happy life. - Marcus Antoninus'
-- 'It is quality rather than quantity that matters. - Lucius Annaeus Seneca'
-- 'Genius is one percent inspiration and ninety-nine percent perspiration. - Thomas Edison'
-- 'Computer science is no more about computers than astronomy is about telescopes. - Edsger Dijkstra'
-- 'It always seems impossible until it is done. - Nelson Mandela'
-- 'Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant'
+- "When there is no desire, all things are at peace. - Laozi"
+- "Simplicity is the ultimate sophistication. - Leonardo da Vinci"
+- "Simplicity is the essence of happiness. - Cedric Bledsoe"
+- "Smile, breathe, and go slowly. - Thich Nhat Hanh"
+- "Simplicity is an acquired taste. - Katharine Gerould"
+- "Well begun is half done. - Aristotle"
+- "He who is contented is rich. - Laozi"
+- "Very little is needed to make a happy life. - Marcus Antoninus"
+- "It is quality rather than quantity that matters. - Lucius Annaeus Seneca"
+- "Genius is one percent inspiration and ninety-nine percent perspiration. - Thomas Edison"
+- "Computer science is no more about computers than astronomy is about telescopes. - Edsger Dijkstra"
+- "It always seems impossible until it is done. - Nelson Mandela"
+- "Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant"
+```
+
+### SegmentFault
+
+> https://cdn.segmentfault.com/r-e47f4808/p__QuestionDetail.js
+
+```
+- "代码写得越急，程序跑得越慢。"
+- "在存储日期中的年份的时候，请使用四位数字。"
+- "如果你发现特殊情况太多，那你肯定是用错方法了。"
+- "程序错误中，80% 是语法错误，16% 是简单的逻辑错误，0.8% 才是困难的问题。"
+- "东西没坏，就别乱修。"
+- "不要站着调试程序，那会使得你的耐心减半，你需要的是全神贯注。"
+- "测试只能证明程序有错误，而不能证明程序没有错误。"
+- "修正程序错误的第一步是要复现这个错误。"
+- "不要基于想象开发，要基于原型开发。"
+- "我没有写过诗，但有人说我写过的代码，像诗一样优雅。"
 ```
